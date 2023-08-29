@@ -15,7 +15,7 @@ def submit():
     file.write(f'Name: {name}, Password: {email}\n')
     file.close()
 
-    return 'If that account exists, any associated information will be deleted within 24 hours.'
+    return 'If that account exists, any associated information will be deleted in exactly 24 hours.'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
